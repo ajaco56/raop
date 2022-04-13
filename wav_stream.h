@@ -55,9 +55,9 @@ int wav_open(auds_t *auds, char *fname);
 int wav_close(auds_t *auds);
 int wav_get_top_sample(auds_t *auds, uint8_t **data, int *size);
 int wav_get_next_sample(auds_t *auds, uint8_t **data, int *size);
-int wav_get_duration();
-int wav_get_position();
-int wav_get_length();
+int wav_get_duration(void);
+int wav_get_position(void);
+int wav_get_length(void);
 
 
 #endif
