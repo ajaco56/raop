@@ -32,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E1489EC028074C5E00D738F1 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		E1489EC128074C5E00D738F1 /* Makefile copy */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Makefile copy"; sourceTree = "<group>"; };
 		E19A3A5725121765003562BA /* XCodeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XCodeTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19A3A60251217CE003562BA /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
 		E19A3A61251217CE003562BA /* flac_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flac_stream.h; sourceTree = "<group>"; };
@@ -87,6 +89,8 @@
 		E19A3A5F251217CE003562BA /* raop2_play-master 3 */ = {
 			isa = PBXGroup;
 			children = (
+				E1489EC028074C5E00D738F1 /* Makefile */,
+				E1489EC128074C5E00D738F1 /* Makefile copy */,
 				E1D42A4C2529F2EA00C0818B /* audio_stream.c */,
 				E1D42A4B2529F2EA00C0818B /* audio_stream.h */,
 				E19A3A60251217CE003562BA /* aes.c */,
@@ -111,8 +115,7 @@
 				E19A3A7C251217CE003562BA /* wav_stream.h */,
 			);
 			name = "raop2_play-master 3";
-			path = "/Users/Andreas/Downloads/raop2_play-master 3";
-			sourceTree = "<absolute>";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
